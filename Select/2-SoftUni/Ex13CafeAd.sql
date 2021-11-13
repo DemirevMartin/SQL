@@ -1,0 +1,14 @@
+
+CREATE DATABASE CafeAD
+GO
+DROP TABLE Products
+CREATE TABLE Products 
+(
+ID INT NOT NULL IDENTITY(1,1),
+Product VARCHAR(50) NOT NULL,
+SalesAgent VARCHAR(50) NOT NULL,
+FirstTrimester MONEY NOT NULL, 
+SecondTrimester MONEY NOT NULL
+);
+GO
+
