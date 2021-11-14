@@ -1,0 +1,5 @@
+--1
+SELECT EOMONTH(DATEADD(month, -3, GETDATE()));
+
+--2
+SELECT DATENAME(weekday, EOMONTH('2021/12/01'));
